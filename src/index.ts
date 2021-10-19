@@ -1,7 +1,9 @@
 import { Shape } from './shape';
-// import { $$ } from './mylib';
-import * as test from 'jquery';
-import { $$ } from 'mylib';
+import * as $ from 'jquery';
+
+const res = $('h1');
+
+console.log(res);
 
 const circle = new Shape.Circle();
 const square = new Shape.Square();

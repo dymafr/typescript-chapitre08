@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/jquery": "^3.3.38",
     "@types/source-map": "^0.5.2",
     "html-webpack-plugin": "^4.3.0",
     "jquery": "^3.5.1",

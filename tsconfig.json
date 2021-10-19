@@ -1,14 +1,14 @@
 {
   "files": ["src/index.ts"],
   "compilerOptions": {
+    "outDir": "./dist",
     "module": "ESnext",
     "target": "ES3",
-    "allowJs": true,
     "baseUrl": ".",
+    "allowJs": true,
     "paths": {
-      "jquery": ["node_modules/jquery/dist/jquery"],
-      "mylib": ["mylib/mylib"]
+      "jquery": ["node_modules/jquery/dist/jquery"]
     },
-    "typeRoots": ["node_modules/types", "types"]
+    "typeRoots": ["node_modules/@types", "types"]
   }
 }

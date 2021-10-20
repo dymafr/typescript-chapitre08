@@ -3,12 +3,7 @@
   "compilerOptions": {
     "outDir": "./dist",
     "module": "ESnext",
-    "target": "ES3",
-    "baseUrl": ".",
-    "allowJs": true,
-    "paths": {
-      "jquery": ["node_modules/jquery/dist/jquery"]
-    },
-    "typeRoots": ["node_modules/@types", "types"]
+    "target": "ES6",
+    "baseUrl": "."
   }
 }
